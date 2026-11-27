@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+    <line>
+      <![CDATA[Website Launched]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-11-26T23:28:28 IST" name="Amazon Suite" finished-at="2026-11-26T23:31:00 IST" duration-ms="152367">
+    <groups>
+    </groups>
+    <test started-at="2026-11-26T23:28:28 IST" name="Amazon End to End project Test" finished-at="2026-11-26T23:31:00 IST" duration-ms="152367">
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_5_SearchingProduct">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_5_SearchingProduct@b3ca52e]" started-at="2026-11-26T23:29:59 IST" name="launchBrowser" finished-at="2026-11-26T23:30:04 IST" duration-ms="4875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SearchProduct()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_5_SearchingProduct@b3ca52e]" started-at="2026-11-26T23:30:04 IST" name="SearchProduct" finished-at="2026-11-26T23:30:34 IST" duration-ms="29898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_5_SearchingProduct@b3ca52e]" started-at="2026-11-26T23:30:34 IST" name="quitBrowser" finished-at="2026-11-26T23:30:36 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_5_SearchingProduct -->
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_3_LoginFailwithincorrectpassword">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_3_LoginFailwithincorrectpassword@752325ad]" started-at="2026-11-26T23:29:19 IST" name="launchBrowser" finished-at="2026-11-26T23:29:24 IST" duration-ms="4943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LoginwithInvalid()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_3_LoginFailwithincorrectpassword@752325ad]" started-at="2026-11-26T23:29:24 IST" name="LoginwithInvalid" finished-at="2026-11-26T23:29:35 IST" duration-ms="10523" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginwithInvalid -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_3_LoginFailwithincorrectpassword@752325ad]" started-at="2026-11-26T23:29:35 IST" name="quitBrowser" finished-at="2026-11-26T23:29:36 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_3_LoginFailwithincorrectpassword -->
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_4_EditProfileInformation">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_4_EditProfileInformation@279fedbd]" started-at="2026-11-26T23:29:36 IST" name="launchBrowser" finished-at="2026-11-26T23:29:39 IST" duration-ms="3916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="EditProfile()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_4_EditProfileInformation@279fedbd]" started-at="2026-11-26T23:29:39 IST" name="EditProfile" finished-at="2026-11-26T23:29:58 IST" duration-ms="18370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_4_EditProfileInformation@279fedbd]" started-at="2026-11-26T23:29:58 IST" name="quitBrowser" finished-at="2026-11-26T23:29:59 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_4_EditProfileInformation -->
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_6_SearchwithFilters">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_6_SearchwithFilters@45c7e403]" started-at="2026-11-26T23:30:36 IST" name="launchBrowser" finished-at="2026-11-26T23:30:42 IST" duration-ms="6520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="SearchFilters()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_6_SearchwithFilters@45c7e403]" started-at="2026-11-26T23:30:42 IST" name="SearchFilters" finished-at="2026-11-26T23:30:59 IST" duration-ms="16954" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchFilters -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_6_SearchwithFilters@45c7e403]" started-at="2026-11-26T23:30:59 IST" name="quitBrowser" finished-at="2026-11-26T23:31:00 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_6_SearchwithFilters -->
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_2_LoginwithValid">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_2_LoginwithValid@2a5c8d3f]" started-at="2026-11-26T23:28:48 IST" name="launchBrowser" finished-at="2026-11-26T23:28:55 IST" duration-ms="6155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LoginwithValid()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_2_LoginwithValid@2a5c8d3f]" started-at="2026-11-26T23:28:55 IST" name="LoginwithValid" finished-at="2026-11-26T23:29:18 IST" duration-ms="22904" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginwithValid -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_2_LoginwithValid@2a5c8d3f]" started-at="2026-11-26T23:29:18 IST" name="quitBrowser" finished-at="2026-11-26T23:29:19 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_2_LoginwithValid -->
+      <class name="Project_1.Project1_Amazon_end_to_end.Tc_1_NewUserLogin">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_1_NewUserLogin@3b69e7d1]" started-at="2026-11-26T23:28:28 IST" name="launchBrowser" finished-at="2026-11-26T23:28:35 IST" duration-ms="7204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="NewUserLogin()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_1_NewUserLogin@3b69e7d1]" started-at="2026-11-26T23:28:35 IST" name="NewUserLogin" finished-at="2026-11-26T23:28:47 IST" duration-ms="12097" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Website Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NewUserLogin -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:Project_1.Project1_Amazon_end_to_end.Tc_1_NewUserLogin@3b69e7d1]" started-at="2026-11-26T23:28:48 IST" name="quitBrowser" finished-at="2026-11-26T23:28:48 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- Project_1.Project1_Amazon_end_to_end.Tc_1_NewUserLogin -->
+    </test> <!-- Amazon End to End project Test -->
+  </suite> <!-- Amazon Suite -->
+</testng-results>
